@@ -21,4 +21,4 @@ sed -i "s/^pkgver=.*/pkgver=$latest_version/" "$PKGBUILD"
 updpkgsums
 
 # Install
-makepkg -si
+makepkg -si --skipinteg
